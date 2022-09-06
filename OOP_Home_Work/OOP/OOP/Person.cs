@@ -27,6 +27,7 @@ namespace OOP
             Name = "Unknown";
             Age = 0;
             Phone = "Unknown";
+            IsMale = false;
         }
 
         public Person(string name, int age, string phone, bool isMale)
