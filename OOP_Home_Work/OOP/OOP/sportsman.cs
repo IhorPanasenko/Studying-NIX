@@ -25,5 +25,19 @@
             this.WonCompetitions = WonCompetitions;
             this.Coach = Coach;
         }
+
+        public void GiveAbonement()
+        {
+            if (HasAbonement)
+            {
+                Console.WriteLine("Sportsman "+Name+" already has abonement\n\n");
+            }
+            else
+            {
+                HasAbonement=true;
+                Console.WriteLine("Abonement was given to " + Name + "\n\n");
+            }
+        }
+
     }
 }
