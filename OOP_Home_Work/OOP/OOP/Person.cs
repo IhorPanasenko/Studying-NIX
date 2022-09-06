@@ -33,5 +33,10 @@ namespace OOP
             Phone = phone;
         }
 
+        public void ShowInfo()
+        {
+            Console.WriteLine("Name:" +Name+"\n"+"Age: "+Age+"\n"+"Phone: "+Phone+"\n\n");
+        }
+
     }
 }
