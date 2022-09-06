@@ -19,5 +19,19 @@ namespace OOP
 
         public string Phone { get { return phone; } set { phone = value; } }
 
+        public Person()
+        {
+            Name = "Unknown";
+            Age = 0;
+            Phone = "Unknown";
+        }
+
+        public Person(string name, int age, string phone)
+        {
+            Name = name;
+            Age = age;
+            Phone = phone;
+        }
+
     }
 }
