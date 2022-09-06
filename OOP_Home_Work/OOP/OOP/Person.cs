@@ -8,5 +8,10 @@ namespace OOP
 {
     internal class Person
     {
+
+        private string name;
+        private int age;
+        private string phone;
+
     }
 }
