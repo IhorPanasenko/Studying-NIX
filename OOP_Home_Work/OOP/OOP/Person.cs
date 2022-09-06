@@ -13,5 +13,11 @@ namespace OOP
         private int age;
         private string phone;
 
+        internal string Name { get { return name; } set { name = value; } }
+
+        internal int Age { get { return age; } set { age = value>0?value:0; Console.WriteLine("Age must be grater than 0"); } }
+
+        public string Phone { get { return phone; } set { phone = value; } }
+
     }
 }
