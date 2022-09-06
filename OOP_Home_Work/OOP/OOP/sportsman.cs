@@ -51,5 +51,10 @@
             }
         }
 
+        public void GiveMedal()
+        {
+            WonCompetitions++;
+        }
+
     }
 }
