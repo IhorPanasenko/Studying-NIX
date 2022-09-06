@@ -49,5 +49,13 @@
             group.AddSportsman(sp);
         }
 
+        public void GymInfo()
+        {
+            Console.WriteLine("Gym on address " + Address + "\nSquare: " + Square + "Trained by coach: \n");
+            coach.ShowInfo();
+            Console.WriteLine("With group:\n");
+            group.GroupInfo();
+        }
+
     }
 }

@@ -49,5 +49,14 @@
 
             return result;
         }
+
+        public void GroupInfo()
+        {
+            Console.WriteLine("Group " + Name + " # " + Id + " Has sportsmans:\n");
+            foreach(Sportsman sp in sportsmen)
+            {
+                sp.ShowInfo();
+            }
+        }
     }
 }
