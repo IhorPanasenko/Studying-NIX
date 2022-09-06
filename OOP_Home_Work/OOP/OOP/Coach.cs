@@ -28,11 +28,11 @@
         {
             if (IsMale)
             {
-                Console.WriteLine(Name + " is coach he is " + Age + " years old and has" + YearExperience + " years experience \nHe specilized at: " + Specialization + " And has " + NumberOfDiploms + "\nContact Number: " + Phone + "\n\n");
+                Console.WriteLine(Name + " is coach he is " + Age + " years old and has " + YearExperience + " years experience \nHe specilized at: " + Specialization + " And has " + NumberOfDiploms +" Diploms "+ "\nContact Number: " + Phone + "\n\n");
             }
             else
             {
-                Console.WriteLine(Name + " is coach she is " + Age + " years old and has" + YearExperience + " years experience \nShe specilized at: " + Specialization + " And has " + NumberOfDiploms + "\nContact Number: " + Phone + "\n\n");
+                Console.WriteLine(Name + " is coach she is " + Age + " years old and has " + YearExperience + " years experience \nShe specilized at: " + Specialization + " And has " + NumberOfDiploms + " Diploms " + "\nContact Number: " + Phone + "\n\n");
             }
         }
 
