@@ -43,11 +43,11 @@
         {
             if (IsMale)
             {
-                Console.WriteLine(Name+" is sportsman he is"+Age+" years old \nHe has been gone to gym for "+WentToGymForMonths+" months and won "+WonCompetitions+" competitions\nHe training at coach "+Coach.Name+"\nHe has abonement "+HasAbonement+"Contact phone"+Phone);
+                Console.WriteLine(Name+" is sportsman he is "+Age+" years old \nHe has been gone to gym for "+WentToGymForMonths+" months and won "+WonCompetitions+" competitions\nHe training at coach "+Coach.Name+"\nHe has abonement "+HasAbonement+" \nContact phone "+Phone);
             }
             else
             {
-                Console.WriteLine(Name + " is sportsman she is" + Age + " years old \nShe has been gone to gym for " + WentToGymForMonths + " months and won " + WonCompetitions + " competitions\nShe training at coach " + Coach.Name + "\nShe has abonement " + HasAbonement + "Contact phone" + Phone);
+                Console.WriteLine(Name + " is sportsman she is " + Age + " years old \nShe has been gone to gym for " + WentToGymForMonths + " months and won " + WonCompetitions + " competitions\nShe training at coach " + Coach.Name + "\nShe has abonement " + HasAbonement + "\nContact phone " + Phone);
             }
         }
 

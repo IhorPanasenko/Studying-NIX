@@ -51,7 +51,7 @@
 
         public void GymInfo()
         {
-            Console.WriteLine("Gym on address " + Address + "\nSquare: " + Square + "Trained by coach: \n");
+            Console.WriteLine("Gym on address " + Address + "\nSquare: " + Square + " \nTrained by coach: \n");
             coach.ShowInfo();
             Console.WriteLine("With group:\n");
             group.GroupInfo();
