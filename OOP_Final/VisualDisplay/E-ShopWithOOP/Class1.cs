@@ -1,6 +1,6 @@
 ﻿namespace E_ShopWithOOP
 {
-    public class Class1
+    public class Person
     {
 
     }
