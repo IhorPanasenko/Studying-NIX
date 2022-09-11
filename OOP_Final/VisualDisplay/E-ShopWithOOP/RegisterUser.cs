@@ -1,6 +1,6 @@
 ﻿namespace E_ShopWithOOP
 {
-    public class Person
+    public class RegisterUser
     {
         private int id;
         private string firstName;
@@ -8,6 +8,5 @@
         private DateTime BirthdayDate;
         private readonly string password;
         private string login;
-
     }
 }
