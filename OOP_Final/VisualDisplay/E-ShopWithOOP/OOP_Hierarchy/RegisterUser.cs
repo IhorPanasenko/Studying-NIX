@@ -1,4 +1,4 @@
-﻿namespace E_ShopWithOOP
+﻿namespace E_ShopWithOOP.OOP_Hierarchy
 {
     public class RegisterUser
     {
