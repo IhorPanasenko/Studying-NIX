@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace E_ShopWithOOP.Services
+namespace E_ShopWithOOP.OOP_Hierarchy
 {
-    internal interface IAddress
+    internal class Address
     {
     }
 }
